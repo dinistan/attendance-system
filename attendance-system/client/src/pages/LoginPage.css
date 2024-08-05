@@ -1,123 +1,135 @@
-  html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #5855bb;
-  }
-  
-  .login-container {
-    display: flex;
-    width: 1000px;
-    height: 500px;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 1px 10px rgba(255, 255, 255, 0.5);
-    border-radius: 15px;
-    background-color: white;
-  }
-  
-  .left-side {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f9f9f9;
-    height: 100%;
-    width: 500px;
-    border-radius: 15px;
-  }
-  
-  .login-image {
-    width: 500px;
-    height: auto;
-  }
-  
-  .right-side {
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #ffffff;
-  }
-  
-  .right-side h2 {
-    color: #5855bb;
-    font-size: 34px;
-  }
-  
-  .right-side p {
-    color: black;
-    font-size: 14px;
-    margin-top: -30px;
-    margin-bottom: 25px;
-  }
-  
-  .login-form {
-    width: 80%;
-  }
-  
-  .input-group {
-    margin-bottom: 20px;
-  }
-  
-  input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-sizing: border-box;
-    background-color: white;
-    color: black;
-  }
-  
-  .login-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #5855bb;
-    color: #ffffff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  
-  .social-login {
-    margin-top: 50px;
-    text-align: center;
-  }
-  
-  .social-login p {
-    margin-bottom: 10px;
-  }
-  
-  
-  .google-button {
-    background-color: white;
-    color: black;
-    margin: 5px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    border: 1px solid black;
-  }
-  
-  .facebook-button {
-    background-color: #5855bb;
-    color: white;
-    margin: 5px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    border: 1px solid #5855bb;
-  }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #5855bb;
+}
 
-  .right-side h3 {
-    font-size: 14px;
-    margin-top: 20px;
-    font-weight: 500;
-    color: black;
-  }
+.login {
+  width: 1050px;
+  height: 520px;
+  background-color: #5855bb;
+}
 
-  .right-side h3 .signup-link {
-    color: #5855bb;
-  }
+.login-container {
+  display: flex;
+  width: 1000px;
+  height: 520px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 1px 10px rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  background-color: white;
+}
+
+.left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  height: 100%;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.login-image {
+  width: 500px;
+  height: auto;
+}
+
+.right-side {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.right-side h2 {
+  color: #5855bb;
+  font-size: 34px;
+}
+
+.right-side p {
+  color: black;
+  font-size: 14px;
+  margin-top: -30px;
+  margin-bottom: 25px;
+}
+
+.login-form {
+  width: 80%;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+}
+
+.error-message p {
+  color: red;
+  padding: 0;
+  margin-top: -12px;
+  margin-bottom: 10px;
+}
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5855bb;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.social-login {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.social-login p {
+  margin-bottom: 10px;
+}
+
+
+.google-button {
+  background-color: white;
+  color: black;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.facebook-button {
+  background-color: #5855bb;
+  color: white;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #5855bb;
+}
+
+.right-side h3 {
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.right-side h3 .signup-link {
+  color: #5855bb;
+}

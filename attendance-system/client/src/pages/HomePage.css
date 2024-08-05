@@ -1,100 +1,99 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-  }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #5855bb;
-    padding: 1rem 2rem;
-    margin-top: -12px;
-  }
-  
-  .navbar-left .navbar-logo {
-    font-size: 1.5rem;
-    color: white;
-    font-weight: bold;
-  }
-  
-  .navbar-right .navbar-menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar-right .navbar-menu li {
-    margin-left: 1.5rem;
-  }
-  
-  .navbar-right .navbar-menu a {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-  }
-  
-  .logout-button {
-    background-color: #fff;
-    border: none;
-    color: #5855bb;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .main-content {
-    display: flex;
-    padding: 2rem;
-  }
-  
-  .right-container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .main-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .left-container {
-    flex: 1;
-    padding: 2rem;
-    text-align: left;
-  }
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5855bb;
+  padding: 1rem 2rem;
+  margin-top: -12px;
+}
 
-  .left-container h2 {
-    margin-top: 50px;
-    font-size: 2.2rem;
-    color: #333;
-    margin-bottom: 1rem;
-  }
+.navbar-left .navbar-logo {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
 
-  .left-container h1 {
-    font-size: 3.5rem;
-    color: #5855bb;
-    margin-bottom: 1rem;
-    margin-top: -10px;
-  }
-  
-  .left-container p {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 2rem;
-  }
-  
-  .main-button {
-    background-color: #5855bb;
-    border: none;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-  }
+.navbar-right .navbar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right .navbar-menu li {
+  margin-left: 1.5rem;
+}
+
+.navbar-right .navbar-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.logout-button {
+  background-color: #fff;
+  border: none;
+  color: #5855bb;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main-content {
+  display: flex;
+  padding: 2rem;
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.left-container {
+  flex: 1;
+  padding: 2rem;
+  text-align: left;
+}
+
+.left-container h2 {
+  margin-top: 50px;
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.left-container h1 {
+  font-size: 3.5rem;
+  color: #5855bb;
+  margin-bottom: 1rem;
+  margin-top: -10px;
+}
+
+.left-container p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.main-button {
+  background-color: #5855bb;
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}

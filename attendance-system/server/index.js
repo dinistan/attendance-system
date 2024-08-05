@@ -11,8 +11,11 @@ app.use(cors());
 
 app.use(bodyParser.json());
 
-// Simple user storage (for demonstration purposes)
 const USERS_FILE = path.join(__dirname, 'users.json');
+
+app.get('/', (req, res) => {
+    res.send('Welcome to the API!');
+});
 
 app.post('/login', (req, res) => {
     const { username, password } = req.body;
