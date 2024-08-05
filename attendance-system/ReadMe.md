@@ -9,9 +9,9 @@ This project is an attendance system that includes a client-server architecture.
 The project is structured as follows:
 
 - **attendance-system/**
-  - **server/**: Contains server code and REST API implementation.
-  - **client/**: Contains client code and user interface pages.
-  - **docs/**: Documentation related to the project.
+  - **server/**
+  - **client/**
+  - **docs/**
 
 ## Setup and Running the Project
 
@@ -27,7 +27,7 @@ The project is structured as follows:
     ```
 3. Start the server:
     ```bash
-    npm start
+    node index.js
     ```
 
 ### Client Setup
@@ -42,7 +42,7 @@ The project is structured as follows:
     ```
 3. Start the client application:
     ```bash
-    npm start
+    npm run dev
     ```
 
 ## Usage
